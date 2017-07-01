@@ -1,0 +1,24 @@
+{
+  "name": "laquasicinque/laravel-with-aggregates",
+  "keywords": [
+    "laravel",
+    "aggregate"
+  ],
+  "description": "A Package that adds with<Aggregate> methods to ORM queries",
+  "authors": [
+    {
+      "name": "Adam Dorling",
+      "email": "adam.x.dorling@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4" : {
+      "LaQuasiCinque\\WithAggregate\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support" : "~5",
+    "illuminate/database": "^5.4"
+  }
+}
